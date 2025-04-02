@@ -145,8 +145,10 @@
     "typescript": "^5.1.6"
   },
   "lint-staged": {
-    "apps/**/*.{ts}": "prettier --write",
-    "apps/**/*.ts": "eslint"
+    "**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "jest": {
     "moduleFileExtensions": [

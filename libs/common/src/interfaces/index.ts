@@ -1,0 +1,15 @@
+export * from './agent-service.interface';
+export * from './cloud-wallet.interface';
+export * from './connection.interface';
+export * from './cred-def.interface';
+export * from './did.interface';
+export * from './geolocation.interface';
+export * from './interface';
+export * from './issuance.interface';
+export * from './organization.interface';
+export * from './response.interface';
+// TODO: There are conflicts from schema.interface and cred-def.interface will fix that later
+// export * from './schema.interface';
+export * from './user.interface';
+export * from './verification.interface';
+export * from './webhook.interface';
